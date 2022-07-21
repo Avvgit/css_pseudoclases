@@ -1,0 +1,35 @@
+
+.box a {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.box a:hover {
+  background-color: red;
+}
+
+.master:hover {
+  background-color: red;
+} 
+
+.card p:first-child {
+  background-color: red;
+}
+
+input:focus {
+  background-color: red;
+}
+
+.intro1 ::first-line {
+  background-color: red;
+}
+
+.intro2 p::first-letter {
+  background-color: red;
+}
+
+/* :(
+#i p::after {
+
+}
